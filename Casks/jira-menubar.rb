@@ -12,6 +12,14 @@ cask "jira-menubar" do
 
   app "Jira Menubar.app"
 
+  caveats <<~EOS
+    Launch Jira Menubar after installation with:
+      open -a "Jira Menubar"
+
+    You can also open it from Finder > Applications > Jira Menubar.
+    Once running, click the Jira Menubar icon in the macOS menu bar to open the dashboard.
+  EOS
+
   zap trash: [
     "~/Library/Application Support/jira-menubar",
     "~/Library/Preferences/com.jirawidget.menubar.plist",
