@@ -1,9 +1,9 @@
 cask "jira-menubar" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.1"
-  sha256 arm:   "06c195af6ea108c46bd63ad145ac84e734a71062f68549d2f8f67ddacb54d73f",
-         intel: "75c436c2f6c7a73a38c13f896fd0f5a42d926d3b31879812e5afb3c722ef4baf"
+  version "1.0.2"
+  sha256 arm:   "51e6fc1482e231c6ee2f814ee1f8370c49fd1ecacac464a25e8b66d57286ee94",
+         intel: "fa7372f2cd47804fa2d1e02932745219e20cdbbfaa937ad56772b921bfc87bb4"
 
   url "https://github.com/Songgyubin/jira-menubar-releases/releases/download/v#{version}/Jira-Menubar-#{version}-#{arch}.dmg"
   name "Jira Menubar"
